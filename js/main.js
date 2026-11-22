@@ -377,7 +377,7 @@ committeeButton.addEventListener("click", () => {
 themeToggle.addEventListener("click", () => {
   const isDark = document.body.classList.toggle("dark");
 
-  themeIcon.textContent = isDark ? "🌜" : "🌞";
+  themeIcon.textContent = isDark ? "🌞": "🌜";
   themeToggle.setAttribute(
     "aria-label",
     isDark ? "تفعيل الوضع النهاري" : "تفعيل الوضع الليلي"
